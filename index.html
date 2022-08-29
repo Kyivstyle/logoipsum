@@ -1,103 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="header">
-            <div class="container header_flex">
-            <div>
-                <a href="#">
-                <img src="./img/Logo.svg" class="logo" alt="logo">
-            </a>
-            </div>
+      <div class="container header_flex">
+        <div>
+          <a href="#">
+            <img src="./img/Logo.svg" class="logo" alt="logo" />
+          </a>
+        </div>
         <nav class="nav">
-        <ul>
+          <ul>
             <li class="nav_li">
-                <a class="nav_link" href="#">
-                Home 
-                </a>
+              <a class="nav_link" href="#"> Home </a>
             </li>
             <li class="nav_li">
-                <a class="nav_link" href="#">
-                Features 
-                </a>
-        </li>
+              <a class="nav_link" href="#"> Features </a>
+            </li>
             <li class="nav_li">
-                <a class="nav_link" href="#">
-                Pricing 
-                </a>
-        </li>
+              <a class="nav_link" href="#"> Pricing </a>
+            </li>
             <li class="nav_li">
-                <a class="nav_link" href="#">
-                Blog 
-                </a>
-        </li>
-        </ul>
-        </nav> 
+              <a class="nav_link" href="#"> Blog </a>
+            </li>
+          </ul>
+        </nav>
         <div>
-            <button class="btn btn_orange">
-                Get Started  
-            </button>
+          <button class="btn btn_orange">Get Started</button>
         </div>
-        </div>
+      </div>
     </header>
     <section class="container about">
-        <div>
-       <h1 class="about_title">Grow your
-        subscription
-        business</h1> 
-        <p class="about_text">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p> 
+      <div>
+        <h1 class="about_title">Grow your subscription business</h1>
+        <p class="about_text">
+          Outcome-centered products that reduce churn, optimize pricing, and
+          grow your subscription business end-to-end.
+        </p>
         <div class="btn_b">
-            <button class="btn btn_violet">Get Started</button>
-            <button class="btn btn_transparent">Try</button>
+          <button class="btn btn_violet">Get Started</button>
+          <button class="btn btn_transparent">Try</button>
         </div>
-        </div>
-        <div>
-            <img class="firstmen" src="./img/firstmen.png" alt="firstmen">
-        </div>
+      </div>
+      <div>
+        <img class="firstmen" src="./img/firstmen.png" alt="firstmen" />
+      </div>
+    </section>
+    <section class="container about">
+      <div>
+        <img class="secondmen" src="./img/secondmen.png" alt="secondmen" />
+      </div>
+      <div>
+        <h3 class="subscription_title">Subscription index</h3>
+        <form class="btn_b">
+          <input
+            type="email"
+            class="email"
+            id="user-email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+          <button class="btn btn_violet">Try</button>
+        </form>
+      </div>
+    </section>
+    <section class="container">
+      <h2 class="plan_title">Get the right plan for future
+      </h2>
+      <div class="plan">
+      <div class="item">
+     <ol>
+          <li class="item_text">Starter</li>
+          <li class="item_text"><p class="desc_bold">Free</p></li>
+          <li class="item_text">1 Website</li>
+          <li class="item_text">5 GB Hosting</li>
+          <li class="item_text">Limited Support</li>
+        </ol>
+        <button class="btn btn_item">Get Started</button>
+      </div>
 
+      <div class="item">
+        <ol>
+          <li class="item_text">Premium</li>
+          <li class="item_text">
+            <p class="desc_bold">$29<sub class="desc_text">/month</sub></p>
+          </li>
+          <li class="item_text">10 Website</li>
+          <li class="item_text">15 GB Hosting</li>
+          <li class="item_text">Premium Support</li>
+        </ol>
+        <button class="btn btn_item">Get Started</button>
+      </div>
+
+      <div class="item">
+        <ol>
+          <li class="item_text">Enterprise</li>
+          <li class="item_text">
+            <p class="desc_bold">$49<sub class="desc_text">/month</sub></p>
+          </li>
+          <li class="item_text">Unlimited Website</li>
+          <li class="item_text">50 GB Hosting</li>
+          <li class="item_text">Premium Support</li>
+        </ol>
+        <button class="btn btn_item">Get Started</button>
+      </div>
+    </div>
     </section>
     <footer class="footer">
-        <div class="container footer_flex">
+      <div class="container footer_flex">
         <div>
-            <a href="#">
-            <img src="./img/Logo.svg" class="logo" alt="logo">
-        </a>
+          <a href="#">
+            <img src="./img/Logo.svg" class="logo" alt="logo" />
+          </a>
         </div>
-       <nav class="nav_f">
-    <ul>
-        <li class="nav_li">
-            <a class="nav_link" href="#">
-               Support 
-            </a>
-        </li>
-        <li class="nav_li">
-            <a class="nav_link" href="#">
-               Premium 
-            </a>
-       </li>
-        <li class="nav_li">
-            <a class="nav_link" href="#">
-               Pricing 
-            </a>
-       </li>
-        <li class="nav_li">
-            <a class="nav_link" href="#">
-               Blog 
-            </a>
-       </li>
-    </ul>
-       </nav> 
-    </div>
+        <nav class="nav_f">
+          <ul>
+            <li class="nav_li">
+              <a class="nav_link" href="#"> Support </a>
+            </li>
+            <li class="nav_li">
+              <a class="nav_link" href="#"> Premium </a>
+            </li>
+            <li class="nav_li">
+              <a class="nav_link" href="#"> Pricing </a>
+            </li>
+            <li class="nav_li">
+              <a class="nav_link" href="#"> Blog </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
